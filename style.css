@@ -1,11 +1,44 @@
 body {
-	background: #263d65;
+	background: #483c6c;
+	width: 100%;
 }
+#header {margin: 5%;
+		padding-bottom: 5%; }
+.logo {float: left;
+		width: 10%;
+		padding-right: 15%;}
+
+.logotype {width: 25%;
+		float:left;
+		padding-left: 15%;}
+.hamburger {float: left;
+			width: 5%;
+			height: 5%;
+			padding-left: 15%;}
+.hero {background-color: #cc3366;
+height: 300px;
+width: 100%;
+border-width: 10px;
+border-style: solid;
+border-color: #cc3366;}
+#slogan {font-style: italic;}
 
 h1 {
-    color: #32c45f;
+	font-size: 48px;
+	font-family: arial;
+    color: #fff;
+    text-align: left;
+    letter-spacing: .5px;
+
 }
  
 p {
-    color: #73c48b;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: left;
+    font-family: arial;
 }
+
+ul { font-family: arial;
+color:#fff;
+line-height: 130%;}
