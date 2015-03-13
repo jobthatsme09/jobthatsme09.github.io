@@ -1,0 +1,48 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body {
+	color: #fff;
+	font-family: sans-serif;
+}
+
+nav {
+	float: right;
+	display: block;
+	margin: 30px 30px 0 0;
+}
+
+li {
+	display: inline-block;
+	padding: 15px;
+}
+
+li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+header {
+	width: 385px;
+	height: 250px;
+	padding: 250px 0;
+	margin: 0 auto;
+}
+
+header h1 {
+	font-family: 'Helvetica','Arial', sans-serif;
+	font-size: 4em;
+}
+
+header p {
+	font-family: sans-serif;
+	font-size: .75em;
+}
+
+#intro {
+	background: url(http://ri.pinger.pl/pgr143/82bb0c57000df7b9539b5c4c/Milky-Way-Space-in-Beach-Wallpaper.jpg) no-repeat center center fixed;
+	background-size: cover;
+
+}
