@@ -34,7 +34,6 @@ li {
 
 li a {
 	text-decoration: none;
-	font-family: 'cubanoregular';
 	color: #fff;
 }
 
@@ -83,4 +82,38 @@ header p {
 #tagline h2 {
 	font-weight: normal;
 	font-family: 'PT Sans', sans-serif;
+}
+
+#contact {
+	float: left;
+	height: 504px;
+}
+
+#map {
+	margin: 0 auto;
+	width: 540px;
+	padding: 20px;
+	background-color: #339933;
+	display: inline-block;
+	opacity: 0.75;
+}
+
+#info {
+	margin: 0 auto;
+	width: 540px;
+	background-color: #CC3333;
+	float: right;
+	height: 544px;
+	padding: 20px;
+	text-align: center;
+}
+
+#info h2 {
+	font-family: 'cubanoregular';
+	padding: 20px 0 0 0;
+}
+
+#info h3 {
+	padding: 0 0 20px 0;
+	font-family: 'cubanoregular';
 }
