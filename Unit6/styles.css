@@ -89,7 +89,6 @@ header p {
 }
 
 #contact {
-	float: left;
 	height: 504px;
 	width: 100%;
 	margin: 0 auto;
@@ -112,7 +111,7 @@ header p {
 	width: 50%;
 	background-color: #a65636;
 	height: 100%;
-	padding: 1em;
+	padding: 5em;
 	text-align: left;
 }
 
