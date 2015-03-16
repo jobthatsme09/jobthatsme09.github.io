@@ -16,23 +16,14 @@ box-sizing:border-box;
 	}
 
 body {
-<<<<<<< HEAD
 	color: #f3f3f3;
-=======
-	color: #fff;
->>>>>>> origin/master
 	font-family: sans-serif;
 }
 
 nav {
 	float: right;
-<<<<<<< HEAD
 	display: inline-block;
 	margin: 3.5em 2em 0 0;
-=======
-	display: block;
-	margin: 30px 30px 0 0;
->>>>>>> origin/master
 }
 
 li {
@@ -64,17 +55,11 @@ header p {
 	font-size: 1em;
 	text-align: center;
 }
-<<<<<<< HEAD
 
 #navbg {
 	background-color: rgba(0,0,0,0.8);
 	height: 150px;
 	width: 100%
-=======
-#navbg {
-	background-color: rgba(0,0,0,0.8);
-	height: 100px;
->>>>>>> origin/master
 }
 #hero {
 	background: url("first-firing.jpg") no-repeat center center scroll;
@@ -83,12 +68,8 @@ header p {
 }
 
 #hero img {
-<<<<<<< HEAD
 	display: inline-block;
 	height: 125px;
-=======
-	width: 100px;
->>>>>>> origin/master
 	float: left;
 	padding: 25px 0 0 25px;
 }
@@ -104,34 +85,23 @@ header p {
 #tagline h2 {
 	font-weight: normal;
 	font-family: 'PT Sans', sans-serif;
-<<<<<<< HEAD
 	font-size: 1.50em;
-=======
->>>>>>> origin/master
 }
 
 #contact {
 	float: left;
 	height: 504px;
-<<<<<<< HEAD
 	width: 100%;
 	margin: 0 auto;
-=======
->>>>>>> origin/master
 }
 
 #map {
 	margin: 0 auto;
-<<<<<<< HEAD
 	width: 50%;
-=======
-	width: 540px;
->>>>>>> origin/master
 	padding: 20px;
 	background-color: #339933;
 	display: inline-block;
 	opacity: 0.75;
-<<<<<<< HEAD
 	height: 100%
 }
 
@@ -153,26 +123,3 @@ header p {
 	font-size: .9em;
 	line-height: 120%;
 	}
-=======
-}
-
-#info {
-	margin: 0 auto;
-	width: 540px;
-	background-color: #CC3333;
-	float: right;
-	height: 544px;
-	padding: 20px;
-	text-align: center;
-}
-
-#info h2 {
-	font-family: 'cubanoregular';
-	padding: 20px 0 0 0;
-}
-
-#info h3 {
-	padding: 0 0 20px 0;
-	font-family: 'cubanoregular';
-}
->>>>>>> origin/master
