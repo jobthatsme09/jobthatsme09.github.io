@@ -16,14 +16,14 @@ box-sizing:border-box;
 	}
 
 body {
-	color: #fff;
+	color: #f3f3f3;
 	font-family: sans-serif;
 }
 
 nav {
 	float: right;
-	display: block;
-	margin: 30px 30px 0 0;
+	display: inline-block;
+	margin: 3.5em 2em 0 0;
 }
 
 li {
@@ -34,7 +34,6 @@ li {
 
 li a {
 	text-decoration: none;
-	font-family: 'cubanoregular';
 	color: #fff;
 }
 
@@ -56,9 +55,11 @@ header p {
 	font-size: 1em;
 	text-align: center;
 }
+
 #navbg {
 	background-color: rgba(0,0,0,0.8);
-	height: 100px;
+	height: 150px;
+	width: 100%
 }
 #hero {
 	background: url("first-firing.jpg") no-repeat center center scroll;
@@ -67,7 +68,8 @@ header p {
 }
 
 #hero img {
-	width: 100px;
+	display: inline-block;
+	height: 125px;
 	float: left;
 	padding: 25px 0 0 25px;
 }
@@ -83,4 +85,41 @@ header p {
 #tagline h2 {
 	font-weight: normal;
 	font-family: 'PT Sans', sans-serif;
+	font-size: 1.50em;
 }
+
+#contact {
+	float: left;
+	height: 504px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#map {
+	margin: 0 auto;
+	width: 50%;
+	padding: 20px;
+	background-color: #339933;
+	display: inline-block;
+	opacity: 0.75;
+	height: 100%
+}
+
+#info {
+	float: right;
+	display: inline-block;
+	margin: 0 auto;
+	width: 50%;
+	background-color: #a65636;
+	height: 100%;
+	padding: 5em;
+	text-align: left;
+}
+
+
+#info p {
+	font-family: 'PT Sans',sans-serif;
+	color: #f3f3f3;
+	font-size: .9em;
+	line-height: 120%;
+	}
